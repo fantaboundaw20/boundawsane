@@ -1,0 +1,524 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Accueil (Hero) */
+#accueil {
+    background-color: rgb(239, 121, 225); /* Vous pouvez changer cela si vous le souhaitez */
+    color: black;
+    padding: 100px 0;
+    position: relative;
+}
+
+#accueil h1 {
+    color: #830cd8; /* Violet pour le nom */
+    font-weight: bold;
+}
+
+#accueil .btn {
+    padding: 10px 20px;
+}
+
+#accueil .btn.btn-lg {
+    border-radius: 5px;
+}
+
+#accueil .btn.mx-2 {
+    margin: 10px;
+}
+
+#accueil a.btn {
+    background-color: #6A0DAD; /* Violet pour le bouton Télécharger CV */
+    color: white; /* Blanc pour le texte du bouton */
+}
+
+#accueil a.btn-outline-light {
+    color: #6A0DAD; /* Texte violet clair pour le bouton Contactez-moi */
+    border-color: #6A0DAD;
+}
+
+/* Image circulaire à droite */
+#accueil img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+/* Séparateur violet clair entre sections */
+.section-divider {
+    height: 10px;
+    background-color: #6A0DAD; /* Violet clair */
+    margin-top: 50px;
+}
+
+Copier le code
+/* Section Compétences */
+#competences {
+    background-color: #6A0DAD; /* Violet pour la section */
+    padding: 50px 0;
+    color: black;
+}
+
+#competences h4 {
+    color: black; /* Texte des compétences en blanc */
+}
+
+.progress-bar {
+    background-color: #BCBCF2; /* Barre de progression en violet clair */
+}
+
+/* Style des séparateurs */
+.section-divider {
+    height: 3px;
+    background-color: #BCBCF2; /* Séparateur en violet clair */
+    width: 100px;
+    margin: 10px auto;
+}
+
+/* Séparateur plus large en bas */
+.section-divider:last-child {
+    height: 5px;
+    width: 80%;
+     }
+    * Section services */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 30px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Ombre autour des rectangles */
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px); /* Légère animation au survol */
+}
+
+.service-icon {
+    width: 60px; /* Taille de l'icône */
+    margin-bottom: 15px; /* Espace entre l'icône et le titre */
+}
+
+.service-item h2 {
+    color: #4C2290; /* Couleur violette */
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.lead{
+    color: black;}
+    card-container {
+        display: flex;
+        flex-direction: row; /* Alignement horizontal */
+        justify-content: center; /* Centre les cartes horizontalement */
+        flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si elles dépassent */
+        margin: 20px;
+        
+    }
+    
+    .card {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 18rem;
+        margin: 10px;
+        box-shadow: 0px 4px 8px rgba(199, 51, 51, 0.1);
+    }
+    
+    .card img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .card-body {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .card h4 {
+        color: #4a4a4a;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        color: #080707;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    * Personnalisation des couleurs */
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #6D28D9; /* Violet principal */
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #D3A6FF; /* Violet clair pour la ligne */
+    margin: 10px auto;
+}
+
+.realisation-container {
+    padding: 20px;
+}
+
+.realisation-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.realisation-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.realisation-card h5 {
+    color: #4A4A4A;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.realisation-card p {
+    color: #b91f55;
+    font-size: 0.9rem;
+}
+
+/* Footer personnalisé */
+.footer {
+    background-color: #4A4A4A;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: #D3A6FF; /* Violet clair */
+}
+.card-container {
+    display: flex;
+    gap: 15px;
+   position: relative 90VH;
+   width: 100 PX;
+   height: 200;
+
+}
+.card-container {
+    width: auto fit-content;
+
+}
+
+.NOTE {
+    width: 20 px;
+    height: 15vh;
+}
+.container realisation-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+   background-color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Trois colonnes */
+            gap: 20px;
+            justify-items: center; /* Centrer les cartes horizontalement */
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 18rem;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(97, 13, 173, 0.5);
+        }
+
+        .icon {
+            font-size: 50px;
+            color: #610DAD;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card-text {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .card:hover .card-title, .card:hover .card-text {
+            color: #610DAD;
+        }
+
+    
+
+        section-services {
+            background-color: #f7f7f7;
+            padding: 50px 0;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px; /* Espace entre les cartes */
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(97, 13, 173, 0.5);
+        }
+
+        .icon-service {
+            font-size: 50px;
+            color: #610DAD;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card-text {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .row {
+            justify-content: center; /* Centrer les cartes */
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .col-md-4 {
+                max-width: 100%; /* Adapter pour les grand écrans */
+            }
+        }
+        * Styles spécifiques à la section services */
+        .section-services {
+            background-color: #f7f7f7;
+            padding: 50px 0;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            padding: 20px;
+            margin: 10px; /* Espace entre les cartes */
+            flex: 1; /* Permet un layout fluide et auto */
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(97, 13, 173, 0.5);
+        }
+
+        .icon-service {
+            font-size: 50px;
+            color: #610DAD;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card-text {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        /* Disposition auto-layout pour les cartes */
+        .service-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; /* Espace automatique entre les cartes */
+            gap: 20px; /* Espace entre les éléments */
+        }
+
+        @media (max-width: 768px) 
+            .service-row {
+                flex-direction: column; /* Empile les cartes sur Destkop */
+                gap: 20px;
+            }
+
+            .service-card {
+                width: 100%; /* Les cartes prennent toute la largeur sur desktop */
+            }
+
+            /* Styles spécifiques à la section services */
+        .section-services {
+            background-color: #f7f7f7;
+            padding: 50px 0;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            padding: 30px; /* Plus de padding pour un effet plus large */
+            margin: 10px; /* Espace entre les cartes */
+            width: 100%; /* Prend 100% de la largeur de la colonne */
+            min-height: 300px; /* Augmente la hauteur pour un rectangle */
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(97, 13, 173, 0.5);
+        }
+
+        .icon-service {
+            font-size: 50px;
+            color: #610DAD;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card-text {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .row {
+            justify-content: center; /* Centrer les cartes */
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .service-card {
+                width: 100%; /* Les cartes prennent toute la largeur sur mobile */
+            }
+        }
+
+        .contact-form-container {
+            display: flex;
+            justify-content: space-between; /* Espace entre le formulaire et les informations */
+            margin-top: 50px;
+        }
+
+        .contact-form {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px; /* Largeur du formulaire */
+            margin-right: 20px; /* Espace à droite du formulaire */
+        }
+
+        .contact-form h4 {
+            text-align: center;
+            color: #610DAD;
+            margin-bottom: 20px;
+        }
+
+        .contact-form button {
+            background-color: #610DAD;
+            color: white;
+            width: 100%;
+        }
+
+        .contact-info {
+            max-width: 300px; /* Largeur max pour les infos de contact */
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h5 {
+            color: #610DAD;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin: 5px 0; /* Espacement entre les lignes */
+        }
+
+        .mt-4 {
+            margin-top: 1.5rem; /* Réduction de l'espace entre le formulaire et les informations à 5cm */
+        }
+        .footer {
+            background-color: #f7f7f7; /* Couleur de fond */
+            padding: 20px 0; /* Padding pour le haut et le bas */
+        }
+        
+        .footer h5 {
+            margin-bottom: 15px; /* Espace entre le titre et le texte */
+            color: #610DAD; /* Couleur du texte des titres */
+        }
+        
+        .footer p {
+            margin: 0; /* Suppression de la marge par défaut */}
